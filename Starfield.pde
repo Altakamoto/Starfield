@@ -54,7 +54,7 @@ class Particle
     myX = 200;
     myY = 200;
     myAngle = Math.random()*2*Math.PI;
-    mySpeed = Math.random()*10;
+    mySpeed = Math.random()*5 + 3;
     myColor = color((int)(Math.random()*70 + 140), (int)(Math.random()*60 + 70), (int)(Math.random()*40 + 20));
     mySize = (int)(Math.random()*10 + 5);
   }
@@ -77,7 +77,7 @@ class OddBallParticle extends Particle
     myX = 200;
     myY = 200;
     myAngle = Math.random()*2*Math.PI;
-    mySpeed = Math.random()*10;
+    mySpeed = Math.random()*5 + 3;
     myColor = color(225, 69, 0);
     mySize = (int)(Math.random()* 20 + 15);
   }
